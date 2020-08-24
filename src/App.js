@@ -6,13 +6,19 @@ import {
 } from "react-router-dom";
 
 import HomePage from './features/welcome/HomePage';
-// import ExperiencePage from './features/experience/ExperiencePage';
+import ExperiencePage from './features/experience/ExperiencePage';
 
 import './App.css';
 
 function App() {
+  console.log(process.env.PUBLIC_URL);
   return (
-    <HomePage />
+    <Router>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path={process.env.PUBLIC_URL + '/experience'} component={ExperiencePage} />
+      </Switch>
+    </Router>
   );
   // <Router>
   //   <Switch>
