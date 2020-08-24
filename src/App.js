@@ -12,19 +12,13 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/experience" component={ExperiencePage} />
       </Switch>
     </Router>
   );
-  // <Router>
-  //   <Switch>
-  //     <Route exact path="/" component={HomePage} />
-  //     <Route path="/experience" component={ExperiencePage} />
-  //   </Switch>
-  // </Router>
 }
 
 export default App;
