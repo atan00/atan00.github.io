@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.bp3-button {
+  border-color: rgb(192, 192, 192) !important;
+}
+
+.bp3-button-text {
+  font-size: 13px;
+  font-weight: 250;
+  line-height: 13px !important;
+  margin-left: 10px;
+}

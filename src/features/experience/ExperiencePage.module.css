@@ -13,7 +13,7 @@
   text-align: left;
 
   margin-left: 10vw;
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin-bottom: 10px;
 }
 
@@ -50,13 +50,17 @@
 .title {
   font-family: 'Roboto', sans-serif;
   color: black;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 600;
   text-align: left;
 
   margin-top: 20px;
-  margin-left: 10vw;
+  margin-left: 20px;
   margin-bottom: 10px;
+
+  width: 220px;
+
+  display: inline-block;
 }
 
 .description {
@@ -69,17 +73,32 @@
   text-align: left;
 
   margin-top: 0px;
-  margin-left: 10vw;
+  margin-left: 10px;
   margin-bottom: 10px;
+
+  display: inline-block;
 }
 
 .info {
-  margin-top: 0px;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-top: 15px;
+  margin-left: 0px;
 
   font-family: 'Roboto', sans-serif;
   color: black;
   font-size: 16px;
   font-weight: 350;
+}
+
+.entry {
+  margin-top: 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.button {
+  display: inline-block;
+}
+
+.header {
+  display: inline-block;
 }
