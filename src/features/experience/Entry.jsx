@@ -33,9 +33,7 @@ class Entry extends React.Component {
             <h1 className={styles.description}> {this.props.role} | {this.props.dates} </h1>
           </div>
           <Collapse isOpen={this.state.isOpen} keepChildrenMounted={this.state.keepChildrenMounted}>
-              <Pre>
-                  {this.props.bullets}
-              </Pre>
+            {this.props.bullets}
           </Collapse>
         </div>
       </div>
