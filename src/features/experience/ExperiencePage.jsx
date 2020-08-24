@@ -1,13 +1,43 @@
 import React from 'react';
+import { Button, Collapse, H5, Pre, Switch } from "@blueprintjs/core";
 
 import styles from './ExperiencePage.module.css';
 
 class ExperiencePage extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isOpen: false,
+      keepChildrenMounted: false,
+    };
+  }
+
+  handleClick = () => {
+    this.setState({ isOpen: !this.state.isOpen });
+  }
+
   render() {
     return (
       <div>
         <div className={styles.wrapper}>
           <h1 className={styles.shadow}> Work Experience </h1>
+        </div>
+        <div style={{ width: "100%", height: "100%", margin: 0 }}>
+            <Button onClick={this.handleClick}>{this.state.isOpen ? "Hide" : "Show"} build logs</Button>
+            <Collapse isOpen={this.state.isOpen} keepChildrenMounted={this.state.keepChildrenMounted}>
+                <Pre>
+                    [11:53:30] Finished 'typescript-bundle-blueprint' after 769 ms
+                    <br />
+                    [11:53:30] Starting 'typescript-typings-blueprint'...
+                    <br />
+                    [11:53:30] Finished 'typescript-typings-blueprint' after 198 ms
+                    <br />
+                    [11:53:30] write ./blueprint.css
+                    <br />
+                    [11:53:30] Finished 'sass-compile-blueprint' after 2.84 s
+                </Pre>
+            </Collapse>
         </div>
         <div>
           <div className={styles.headline}>
