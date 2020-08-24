@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Collapse, H5, Pre, Switch } from "@blueprintjs/core";
 
+import Entry from './Entry';
+
 import styles from './ExperiencePage.module.css';
 
 class ExperiencePage extends React.Component {
@@ -18,27 +20,31 @@ class ExperiencePage extends React.Component {
   }
 
   render() {
+
+    var testBullets = (
+      <ul className={styles.info}>
+        <li> Build fresh benchmarking and visualization features for a Software as a Service (SaaS)-focused web application using Ruby on Rails and React Redux. </li>
+        <li> Revamp UX and design aesthetic across a customer-facing Rails web application to improve user engagement and expose powerful, but underused, tools. </li>
+      </ul>
+    );
+
     return (
       <div>
         <div className={styles.wrapper}>
           <h1 className={styles.shadow}> Work Experience </h1>
         </div>
-        <div style={{ width: "100%", height: "100%", margin: 0 }}>
-            <Button onClick={this.handleClick}>{this.state.isOpen ? "Hide" : "Show"} build logs</Button>
-            <Collapse isOpen={this.state.isOpen} keepChildrenMounted={this.state.keepChildrenMounted}>
-                <Pre>
-                    [11:53:30] Finished 'typescript-bundle-blueprint' after 769 ms
-                    <br />
-                    [11:53:30] Starting 'typescript-typings-blueprint'...
-                    <br />
-                    [11:53:30] Finished 'typescript-typings-blueprint' after 198 ms
-                    <br />
-                    [11:53:30] write ./blueprint.css
-                    <br />
-                    [11:53:30] Finished 'sass-compile-blueprint' after 2.84 s
-                </Pre>
-            </Collapse>
-        </div>
+        <Entry
+          icon="trending-up"
+          company="Public Comps"
+          role="Full Stack Development Intern"
+          dates="June 2020 - Present"
+          bullets={(
+            <ul className={styles.info}>
+              <li> Build fresh benchmarking and visualization features for a Software as a Service (SaaS)-focused web application using Ruby on Rails and React Redux. </li>
+              <li> Revamp UX and design aesthetic across a customer-facing Rails web application to improve user engagement and expose powerful, but underused, tools. </li>
+            </ul>
+          )}
+        />
         <div>
           <div className={styles.headline}>
             <h1 className={styles.title}> Public Comps </h1>
