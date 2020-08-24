@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
 } from "react-router-dom";
@@ -11,12 +11,11 @@ import ExperiencePage from './features/experience/ExperiencePage';
 import './App.css';
 
 function App() {
-  console.log(process.env.PUBLIC_URL);
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path={process.env.PUBLIC_URL + '/experience'} component={ExperiencePage} />
+        <Route path="/experience" component={ExperiencePage} />
       </Switch>
     </Router>
   );
