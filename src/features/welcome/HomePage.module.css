@@ -65,5 +65,25 @@
 
   margin-top: 0px;
   margin-left: 10vw;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.contactBar {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contactIcon {
+  margin-left: 10vw;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.email {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  display: inline-block;
+  align-items: center;
 }
