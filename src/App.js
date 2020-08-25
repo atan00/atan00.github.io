@@ -3,6 +3,7 @@ import {
   HashRouter as Router,
   Route,
   Switch,
+  Link,
 } from "react-router-dom";
 
 import HomePage from './features/welcome/HomePage';
@@ -12,11 +13,13 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/experience" component={ExperiencePage} />
-      </Switch>
+    <Router basename="/">
+      <ul className="nav-bar">
+        <li className="nav-tab"><Link to="/experience" className="nav-link">Experience</Link></li>
+        <li className="nav-tab"><Link to="/" className="nav-link">Home</Link></li>
+      </ul>
+      <Route exact path="/" component={HomePage} />
+      <Route path="/experience" component={ExperiencePage} />
     </Router>
   );
 }
