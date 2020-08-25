@@ -65,12 +65,12 @@
 
   margin-top: 0px;
   margin-left: 10vw;
-  margin-bottom: 20px;
 }
 
 .contactBar {
   display: inline-flex;
   align-items: center;
+  margin-top: 20px;
 }
 
 .contactIcon {

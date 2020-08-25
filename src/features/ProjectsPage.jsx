@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Collapse } from "@blueprintjs/core";
 
 import Entry from './Entry';
+import ContactBar from './ContactBar'
 
 import styles from './Entries.module.css';
 
@@ -83,6 +84,7 @@ class ProjectsPage extends React.Component {
             </ul>
           )}
         />
+        <ContactBar />
       </div>
     );
   }
