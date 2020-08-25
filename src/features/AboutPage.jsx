@@ -25,7 +25,7 @@ class AboutPage extends React.Component {
         <br />
         <div className={styles.aboutLine}>
           <Icon icon="map-marker" iconSize={Icon.MAX_SIZE} className={styles.aboutIcon}/>
-          <span className={styles.aboutDescription}> Quarantining @ Dallas, TX </span>
+          <span className={styles.aboutDescription}> Located @ Dallas, TX </span>
         </div>
         <br />
 
