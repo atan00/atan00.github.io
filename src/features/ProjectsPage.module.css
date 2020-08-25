@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  background-color: #FBFFF1;
+}
+
+.headline {
+  display: inline-block;
+}
+
+.wrapper {
+  width: 100%;
+  text-align: left;
+
+  margin-left: 10vw;
+  margin-top: 15vh;
+  margin-bottom: 10px;
+}
+
+.shadow {
+   color: #B4C5E4;
+   font: bold 80px Helvetica, Arial, Sans-Serif;
+   text-shadow: 1px 1px #3066BE,
+                2px 2px #3066BE,
+                3px 3px #3066BE,
+                4px 4px #3066BE;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.shadow:hover {
+   position: relative;
+   top: -3px;
+   left: -3px;
+   text-shadow: 1px 1px #3066BE,
+                2px 2px #3066BE,
+                3px 3px #3066BE,
+                4px 4px #3066BE,
+                5px 5px #3066BE,
+                6px 6px #3066BE,
+                7px 7px #3066BE,
+                8px 8px #3066BE;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+  width: 220px;
+
+  display: inline-block;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  color: black;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  display: inline-block;
+}
+
+.info {
+  margin-top: 15px;
+  margin-left: 0px;
+
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: 350;
+}
+
+.entry {
+  margin-top: 0px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.button {
+  display: inline-block;
+}
+
+.header {
+  display: inline-block;
+}

@@ -3,24 +3,10 @@ import { Button, Collapse } from "@blueprintjs/core";
 
 import Entry from './Entry';
 
-import styles from './ExperiencePage.module.css';
+import styles from './Entries.module.css';
 
 class ExperiencePage extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      isOpen: false,
-      keepChildrenMounted: false,
-    };
-  }
-
-  handleClick = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  }
-
   render() {
-
     return (
       <div>
         <div className={styles.wrapper}>
