@@ -43,6 +43,8 @@ class AboutPage extends React.Component {
           <Course coursecode="MAT201" coursename="Multivariable Calculus" />
           <Course coursecode="MAT202" coursename="Linear Algebra" />
           <Course coursecode="ECO362" coursename="Financial Investments*" />
+          <Course coursecode="ECO310" coursename="Microeconomic Theory: A Mathematical Approach" />
+          <Course coursecode="ORF245" coursename="Fundamentals of Statistics" />
         </div>
         <div className={styles.aboutLine}>
           <Icon icon="clean" iconSize={Icon.MAX_SIZE} className={styles.aboutIcon}/>
