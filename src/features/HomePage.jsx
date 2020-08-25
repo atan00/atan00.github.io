@@ -12,7 +12,7 @@ class HomePage extends React.Component {
         <div className={styles.wrapper}>
           <h1 className={styles.shadow}> Autumn. </h1>
         </div>
-        <h1 className={styles.description}> A girl who codes, creates, learns, journals, photographs, travels, and dreams ... </h1>
+        <h1 className={styles.description}> A girl who creates, codes, learns, journals, photographs, travels, and dreams ... </h1>
         <ContactBar />
       </div>
     );
