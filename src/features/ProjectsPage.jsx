@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Collapse } from "@blueprintjs/core";
 
 import Entry from './Entry';
 import ContactBar from './ContactBar'
@@ -40,6 +39,19 @@ class ProjectsPage extends React.Component {
               <li> Solution: Prodo is a minimal, comfortable execution of a Pomodoro timer & task tracker that is simple to adopt. Additionally, the application connects to Spotify to track user’s music and listening trends,
                 both historical and recent, and recommend music suited for concentration. </li>
               <li> Built with ReactJS. </li>
+            </ul>
+          )}
+        />
+        <Entry
+          icon="comparison"
+          type="project"
+          company="Terminal Live"
+          tagline="2nd Place @ Princeton vs Penn"
+          bullets={(
+            <ul className={styles.info}>
+              <li> Online competition where players (in teams of three) strategically code algorithms that compete head-to-head, tower defense-style. </li>
+              <li> My team designed and implemented both offensive and defensive strategies in our algorithm, which battled against others at Terminal Live: Princeton vs Penn, ultimately placing second in the competition. </li>
+              <li> Built with Python. </li>
             </ul>
           )}
         />
