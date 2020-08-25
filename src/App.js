@@ -2,7 +2,6 @@ import React from 'react';
 import {
   HashRouter as Router,
   Route,
-  Switch,
   Link,
 } from "react-router-dom";
 
@@ -19,7 +18,7 @@ function App() {
       <ul className="nav-bar">
         <li className="nav-tab"><Link to="/projects" className="nav-link">Projects</Link></li>
         <li className="nav-tab"><Link to="/experience" className="nav-link">Experience</Link></li>
-        <li className="nav-tab"><Link to="/about" className="nav-link">About Me</Link></li>
+        <li className="nav-tab"><Link to="/about" className="nav-link">About Me & Education</Link></li>
         <li className="nav-tab"><Link to="/" className="nav-link">Home</Link></li>
       </ul>
       <Route exact path="/" component={HomePage} />
