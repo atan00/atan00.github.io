@@ -118,3 +118,24 @@
 
   display: inline-block;
 }
+
+.aboutLine {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.aboutIcon {
+  margin-left: 10vw;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.aboutDescription {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  display: inline-block;
+}
