@@ -35,7 +35,7 @@ class ProjectsPage extends React.Component {
           tagline="Pomodoro for You"
           bullets={(
             <ul className={styles.info}>
-              <li> Inspiration: The Pomodoro Technique has been a blessing for my prodictivity, ever since I first discovered the technique in my junior year of high school. Pomodoro timers that I found were clunky, busy, and
+              <li> Inspiration: The Pomodoro Technique has been a blessing for my productivity, ever since I first discovered the technique in my junior year of high school. Pomodoro timers that I found were clunky, busy, and
                 worked poorly when I attempted to incorporate them into my workflow. </li>
               <li> Solution: Prodo is a minimal, comfortable execution of a Pomodoro timer & task tracker that is simple to adopt. Additionally, the application connects to Spotify to track user’s music and listening trends,
                 both historical and recent, and recommend music suited for concentration. </li>
