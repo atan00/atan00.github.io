@@ -35,15 +35,15 @@ class AboutPage extends React.Component {
         </div>
         <br />
         <div className={styles.newLine}>
-          <Course coursecode="COS226" coursename="Algs & Data Structures" />
           <Course coursecode="COS217" coursename="Programming Systems" />
-          <Course coursecode="COS340" coursename="Reasoning About Computing" />
+          <Course coursecode="COS226" coursename="Algs & Data Structures" />
           <Course coursecode="COS318" coursename="Operating Systems*" />
           <Course coursecode="COS326" coursename="Functional Programming*" />
-          <Course coursecode="MAT201" coursename="Multivariable Calculus" />
-          <Course coursecode="MAT202" coursename="Linear Algebra" />
+          <Course coursecode="COS340" coursename="Reasoning About Computing" />
           <Course coursecode="ECO362" coursename="Financial Investments*" />
           <Course coursecode="ECO310" coursename="Mathematical Microeconomics" />
+          <Course coursecode="MAT201" coursename="Multivariable Calculus" />
+          <Course coursecode="MAT202" coursename="Linear Algebra" />
           <Course coursecode="ORF245" coursename="Fundamentals of Statistics" />
         </div>
         <div className={styles.aboutLine}>
