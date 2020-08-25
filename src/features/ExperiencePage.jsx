@@ -57,7 +57,7 @@ class ExperiencePage extends React.Component {
           bullets={(
             <ul className={styles.info}>
               <li> Developed application programming interfaces APIs and web services with Python and Django as part of transformation towards a modern data network within the organization. </li>
-              <li> Designed 3 layers of application programming interfaces APIs to support the reformation of the mobile platform. </li>
+              <li> Created an extensive Proof of Concept with Flask frameworks. </li>
               <li> Committed 1000+ lines of code throughout internship. </li>
             </ul>
           )}
