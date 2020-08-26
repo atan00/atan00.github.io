@@ -40,8 +40,8 @@ class AboutPage extends React.Component {
           <Course coursecode="COS318" coursename="Operating Systems*" />
           <Course coursecode="COS326" coursename="Functional Programming*" />
           <Course coursecode="COS340" coursename="Reasoning About Computing" />
-          <Course coursecode="ECO362" coursename="Financial Investments*" />
           <Course coursecode="ECO310" coursename="Mathematical Microeconomics" />
+          <Course coursecode="ECO362" coursename="Financial Investments*" />
           <Course coursecode="MAT201" coursename="Multivariable Calculus" />
           <Course coursecode="MAT202" coursename="Linear Algebra" />
           <Course coursecode="ORF245" coursename="Fundamentals of Statistics" />
