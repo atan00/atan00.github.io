@@ -2,7 +2,7 @@
   "name": "atan00.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://atan00.github.io/atan00.github.io",
+  "homepage": "http://atan00.github.io/",
   "dependencies": {
     "@blueprintjs/core": "^3.31.0",
     "@testing-library/jest-dom": "^4.2.4",
