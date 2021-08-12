@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Collapse } from "@blueprintjs/core";
+import { Button, Collapse, Icon } from "@blueprintjs/core";
 
 import styles from './Entries.module.css';
 
@@ -21,13 +21,18 @@ class Entry extends React.Component {
     return (
       <div style={{ width: "100%", height: "100%", margin: 0 }}>
         <div className={styles.entry}>
-          <Button
-            onClick={this.handleClick}
-            large
-            icon={this.props.icon}
-            className={styles.button}
-            text="More"
-          />
+          {
+            this.props.bullets !== null ? (
+              <Button
+                onClick={this.handleClick}
+                large
+                icon={this.props.icon}
+                className={styles.button}
+                text="More"
+              />
+            ) :
+            <Icon icon={this.props.icon} />
+          }
           {
             this.props.type === 'project' ?
               <div className={styles.header}>

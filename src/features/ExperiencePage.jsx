@@ -13,9 +13,16 @@ class ExperiencePage extends React.Component {
           <h1 className={styles.shadow}> Work Experience </h1>
         </div>
         <Entry
+          icon="desktop"
+          company="PDT Partners"
+          role="Software Engineering Intern"
+          dates="June 2021 - August 2021"
+          bullets={null}
+        />
+        <Entry
           icon="trending-up"
           company="Public Comps"
-          role="Full Stack Development Intern"
+          role="Full Stack Developer"
           dates="June 2020 - Present"
           bullets={(
             <ul className={styles.info}>

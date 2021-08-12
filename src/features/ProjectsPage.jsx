@@ -13,6 +13,20 @@ class ProjectsPage extends React.Component {
           <h1 className={styles.shadow}> Projects </h1>
         </div>
         <Entry
+          icon="presentation"
+          type="project"
+          company="TigerResearch"
+          tagline="Introducing Research to College First-Years"
+          bullets={(
+            <ul className={styles.info}>
+              <li> Inspiration: Getting involved with research in college is a daunting task, especially for students in their first year of college. TigerResearch pairs undergraduate first- and second-years with 
+                graduate students at Princeton to introduce them to the world of academia. Previously an in-person program, ReMatch found transitioning to a virtual setting oddly difficult. </li>
+              <li> Solution: To help ReMatch, TigerResearch contains an easily-browsable interface for all parties involved: undergraduate mentees, graduate mentors, and administrators. </li>
+              <li> Built with React, Flask & PostgreSQL. </li>
+            </ul>
+          )}
+        />
+        <Entry
           icon="mugshot"
           type="project"
           company="Grouper"
