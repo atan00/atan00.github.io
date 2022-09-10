@@ -42,10 +42,13 @@ class AboutPage extends React.Component {
           <Course coursecode="COS326" coursename="Functional Programming" />
           <Course coursecode="COS333" coursename="Adv. Programming Techniques" />
           <Course coursecode="COS340" coursename="Reasoning About Computing" />
+          <Course coursecode="COS398" coursename="Deep Learning & Small Data" />
+          <Course coursecode="COS432" coursename="Information Security" />
           <Course coursecode="COS445" coursename="Economics and Computing" />
           <Course coursecode="ECO310" coursename="Mathematical Microeconomics" />
           <Course coursecode="ECO362" coursename="Financial Investments" />
           <Course coursecode="ECO363" coursename="Corporate Finance" />
+          <Course coursecode="ECO461" coursename="Entrepreneurial Finance" />
           <Course coursecode="MAT201" coursename="Multivariable Calculus" />
           <Course coursecode="MAT202" coursename="Linear Algebra" />
           <Course coursecode="ORF245" coursename="Fundamentals of Statistics" />
@@ -57,7 +60,7 @@ class AboutPage extends React.Component {
         </div>
         <br />
         <div className={styles.newLine}>
-          <Activity name="Tiger Capital Management" role="Senior Analyst @ I&E (Previously @ TMT)" />
+          <Activity name="Tiger Capital Management" role="Head of Operations, Senior Analyst" />
           <Activity name="Princeton Splash" role="Webmaster & Treasurer" />
           <Activity name="HackPrinceton / IvyHacks" role="Experience Organizer" />
         </div>

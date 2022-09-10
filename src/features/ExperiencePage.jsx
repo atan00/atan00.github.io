@@ -16,6 +16,26 @@ class ExperiencePage extends React.Component {
           icon="desktop"
           company="PDT Partners"
           role="Software Engineering Intern"
+          dates="June 2022 - August 2022"
+          bullets={null}
+        />
+        <Entry
+          icon="form"
+          company="Meta"
+          role="Software Engineering Intern"
+          dates="August 2021 - November 2021"
+          bullets={(
+              <ul className={styles.info}>
+                <li> Optimized daily workflows for thousands of employees by automating hours‐long manual processes and improving visibility of previously‐obscure data. </li>
+                <li> Pioneered an in‐demand suite of ”Pro Forms Management” features for an internal productivity tool with Hack, React, and GraphQL. </li>
+                <li> Supported my team by tackling incoming bug reports, fielding product questions, and establishing ownership of the ”Pro Forms Management” features. </li>
+              </ul>
+          )}
+        />
+        <Entry
+          icon="desktop"
+          company="PDT Partners"
+          role="Software Engineering Intern"
           dates="June 2021 - August 2021"
           bullets={null}
         />
